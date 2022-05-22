@@ -6,8 +6,8 @@
   "scripts": {
     "start": "vite",
     "build": "npm run clear && vite build",
-    "lint": "eslint src/**/*.js",
-    "format": "prettier --write src/**/*.js",
+    "lint": "eslint src/**/*.jsx",
+    "format": "prettier --write src/**/*.jsx",
     "format:lint": "npm run format && npm run lint",
     "clear": "rimraf dist .parcel-cache"
   },
@@ -18,13 +18,13 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-preset-nano-react-app": "^0.1.0",
-    "eslint": "^8.16.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.30.0",
-    "prettier": "^2.6.2",
+    "prettier": "2.6.2",
     "rimraf": "^3.0.2",
     "vite": "^2.6.7"
   },
