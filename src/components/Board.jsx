@@ -36,3 +36,4 @@ const Board = ({ board, handleSquareClick, winningSquares }) => {
 };
 
 export default Board;
+

@@ -23,4 +23,3 @@ export function calculateWinner(squares) {
       winningSquares: [],
     };
   }
-  
